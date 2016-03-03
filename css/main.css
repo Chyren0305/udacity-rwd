@@ -120,6 +120,9 @@ picture#banner img {
 }
 
 .btn-main {
+    width: 100px;
+    height: 30px;
+    font-size: 1em;
     box-shadow: 1px 1px 2px #006;
     float: right;
 }
