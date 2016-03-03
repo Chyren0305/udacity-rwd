@@ -1,0 +1,203 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0 1em;
+}
+
+header {
+    height: 150px;
+}
+
+h1 {
+    position: relative;
+    display: block;
+    margin: 0 auto .2em;
+    width: 70vw;
+    font-family: 'LiHei Pro', 'Noto Serif', 'Microsoft JhengHei', sans-serif;
+    font-size: 3em;
+}
+
+h2 {
+    border-bottom: 1px solid #ddd;
+    font-family: 'LiHei Pro', 'Noto Serif', 'Microsoft JhengHei', sans-serif;
+    font-size: 10vh;
+    margin: 0 0 .5em 0;
+    padding: 0 0 .5em 0;
+    text-align: center;
+}
+
+.font-effect-outline {
+    color: #F63 !important;
+    text-shadow: 3px 3px 2px #333, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333 !important;
+    letter-spacing: 1px;
+}
+
+img {
+    width: 75vw;
+    max-width: 100%;
+}
+
+article {
+    margin: 0 auto;
+    max-width: 70vw;
+}
+
+figure {
+    width: 100%;
+    margin: 0;
+}
+
+figcaption {
+    font-family: 'LiHei Pro', 'Noto Serif', 'Microsoft JhengHei', sans-serif;
+    color: #CC3C3C;
+    padding: 0 0 .1em;
+}
+
+p {
+    color: #333;
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 1.6em;
+    font-family: 'cwtexfangsong', 'Roboto', sans-serif;
+    /*text-align: justify;*/
+}
+
+
+button {
+    background-color: #F66;
+    border: none;
+    color: #F5F5F5;
+    padding: .4em 1em;
+    margin: .5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .2em;
+    cursor: pointer;
+    opacity: .8;
+}
+
+
+/*main*/
+
+.logo {
+    position: relative;
+    display: block;
+    float: left;
+    width: 24vmin;
+    max-height: 150px;
+    opacity: .85;
+    z-index: 9999;
+}
+
+.logo:hover {
+    opacity: 1;
+}
+
+.logoDemo {
+    margin: .1em;
+}
+
+svg#logo {
+    fill: #666;
+    height: 6vw;
+    margin: 0 auto 0.5em auto;
+    width: 6vw;
+}
+
+svg#logo:hover {
+    fill: #CC3C3C;
+    -webkit-filter: drop-shadow(3px 3px 3px #ddd);
+    filter: drop-shadow(3px 3px 3px #ddd);
+}
+
+picture#banner img {
+    -webkit-filter: saturate(1.5) opacity(.8);
+    filter: saturate(1.5) opacity(.8);
+    margin: 0 0 2em 0;
+    width: 100vw;
+}
+
+.btn-main {
+    box-shadow: 1px 1px 2px #006;
+    float: right;
+}
+
+.btn-main:focus {
+    background-color: #CC3C3C;
+}
+
+.btn-main:hover,
+.btn-main:active {
+    opacity: 1;
+}
+
+.deco {
+    width: 100%;
+}
+
+.viewsource {
+    float: right;
+    right: .2em;
+}
+
+.zocial.github {
+    height: 2.15em;
+    width: 13em;
+}
+
+.socialIcon {
+    float: left;
+}
+
+.viewsource a,
+.socialIcon a {
+    margin: .4em;
+}
+
+
+/*Media query*/
+
+@media only screen and (max-width: 769px) {
+    header{
+        height: 100px;
+    }
+    h1 {
+        width: 88vw;
+        font-size: 2em;
+        margin-bottom: .2em;
+        display: inline-block;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    article {
+        max-width: 100%;
+    }
+    img {
+        width: 100vw;
+    }
+    /*effect*/
+    svg#logo,.os-phrases {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 512px) {
+    header{
+        height: 70px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .viewsource,
+    .socialIcon {
+        margin: 0 auto;
+    }
+}

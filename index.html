@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="Udacity Responsive Images course project" />
+    <meta name="author" content="this origin version from http://samdutton.com">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta charset="utf-8">
+    <meta itemprop="name" content="Udacity Responsive Images course project">
+    <meta itemprop="image" content="images/icon.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta id="theme-color" name="theme-color" content="#CC3C3C">
+    <base target="_blank">
+    <title data-i18n="title"></title>
+    <link rel="icon" sizes="192x192" href="images/icon-32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.2.0/css/zocial.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/component.css" id="styles" />
+    <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="js/i18next.min.js"></script>
+    <script type="text/javascript" src="js/lang.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="btn-lang">
+            <button type="button" id="lang" class="btn btn-default btn-main pull-right lang" data-lang="en">English</button>
+            <button type="button" class="btn btn-default btn-main pull-right lang" data-lang="tw" active>正體中文</button>
+        </div>
+        <a href="http://gowaa13.github.io/portfolio/">
+            <img src="images/Rex-logo2.svg" class="logo" alt="this is my own logo" data-i18n="[title]href.0.title">
+        </a>
+        <div class="os-phrases" id="os-phrases">
+            <h2 data-i18n="opening.T1"></h2>
+            <h2 data-i18n="opening.T2"></h2>
+            <h2 data-i18n="opening.T3"></h2>
+            <h2 data-i18n="opening.T4"></h2>
+            <h2 data-i18n="opening.T5"></h2>
+            <h2 data-i18n="opening.T6"></h2>
+            <h2 data-i18n="opening.T7"></h2>
+            <h2 data-i18n="opening.title"></h2>
+        </div>        
+    </header>
+    <h1 data-i18n="h1"></h1>
+    <article>
+        <picture id="banner">
+            <source media="(min-width: 768px)" srcset="images/Sunset-1600_large_2x.jpg 2x, images/Sunset-800_large_1x.jpg" />
+            <source media="(min-width: 640px)" srcset="images/Sunset_medium.jpg" />
+            <img src="images/Sunset_small.jpg" alt="There is a pretty scene in sunset">
+        </picture>
+        <section id="post">
+            <h2 data-i18n="storys" class="font-effect-outline"></h2>
+            <p data-i18n="story.0.intro"></p>
+            <p data-i18n="story.0.sample"></p>
+            <div class="logoDemo">
+                <a href="//github.com/udacity/responsive-images/" data-i18n="[title]href.0.source">
+                    <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69zM12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm0-10c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"></path>
+                    </svg>
+                </a>
+            </div>
+            <figure>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/XinwuGreenTunnel-1600_large_2x.jpg 2x, images/XinwuGreenTunnel-800_large_1x.jpg" />
+                    <source media="(min-width: 640px)" srcset="images/XinwuGreenTunnel_medium.jpg" />
+                    <img src="images/XinwuGreenTunnel_small.jpg" alt="A beach day near GreenTunnel in Xinwu">
+                </picture>
+                <figcaption data-i18n="story.1.figcaption"> </figcaption>
+            </figure>
+            <p data-i18n="story.1.Begin"></p>
+            <p data-i18n="story.1.Second"></p>
+            <p data-i18n="story.1.Then"></p>
+            <p data-i18n="story.1.Fin"></p>
+            <figure>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/CivilConsciousAwaken-1600_large_2x.jpg 2x, images/CivilConsciousAwaken-800_large_1x.jpg" />
+                    <source media="(min-width: 640px)" srcset="images/CivilConsciousAwaken_medium.jpg" />
+                    <img src="images/CivilConsciousAwaken_small.jpg" alt="Civil Conscious Awaken in this day in Formosa">
+                </picture>
+                <figcaption data-i18n="story.2.figcaption"></figcaption>
+            </figure>
+            <p data-i18n="story.2.Begin"></p>
+            <p data-i18n="story.2.Second"></p>
+            <p data-i18n="story.2.Then"></p>
+            <p data-i18n="story.2.Fin"></p>   
+            <figure>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/Hometown-1600_large_2x.jpg 2x, images/Hometown-800_large_1x.jpg" />
+                    <source media="(min-width: 640px)" srcset="images/Hometown_medium.jpg" />
+                    <img src="images/Hometown_small.jpg" alt="Hometown named 'Toufen City' in Taiwan">
+                </picture>
+                <figcaption data-i18n="story.3.figcaption"></figcaption>
+            </figure>
+            <p data-i18n="story.3.Begin"></p>
+            <p data-i18n="story.3.Second"></p>
+            <p data-i18n="story.3.Then"></p>
+            <p data-i18n="story.3.Fin"></p>            
+            <figure>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/ArtCenter-1600_large_2x.jpg 2x, images/ArtCenter-800_large_1x.jpg" />
+                    <source media="(min-width: 640px)" srcset="images/ArtCenter_medium.jpg" />
+                    <img src="images/ArtCenter_small.jpg" alt="Northern Mioali ArtCenter stands on ground">
+                </picture>
+                <figcaption data-i18n="story.4.figcaption"></figcaption>
+            </figure>
+            <p data-i18n="story.4.Begin"></p>
+            <p data-i18n="story.4.Second"></p>
+            <p data-i18n="story.4.Fin"></p>
+            <figure>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/Attack_On_YellowDuck-1600_large_2x.jpg 2x, images/Attack_On_YellowDuck-800_large_1x.jpg" />
+                    <source media="(min-width: 640px)" srcset="images/Attack_On_YellowDuck_medium.jpg" />
+                    <img src="images/Attack_On_YellowDuck_small.jpg" alt="Attack On YellowDuck in Taoyuan">
+                </picture>
+                <figcaption data-i18n="story.5.figcaption"></figcaption>
+            </figure>
+            <p data-i18n="story.5.Begin"></p>
+            <p data-i18n="story.5.Second"></p>
+            <p data-i18n="story.5.Then"></p>
+            <p data-i18n="story.5.Fin"></p>
+            <figure>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/Nightscape-1600_large_2x.jpg 2x, images/Nightscape-800_large_1x.jpg" />
+                    <source media="(min-width: 640px)" srcset="images/Nightscape_medium.jpg" />
+                    <img src="images/Nightscape_small.jpg" alt="A nightscape be photographed by myself">
+                </picture>
+                <figcaption data-i18n="story.6.figcaption"></figcaption>
+            </figure>
+            <p data-i18n="story.6.Begin"></p>
+            <p data-i18n="story.6.Second"></p>
+            <p data-i18n="story.6.Then"></p>
+            <p data-i18n="story.6.Fin"></p>
+            <p><small data-i18n="story.6.PS"></small></p>
+            
+            <figure>
+                <picture>
+                    <source media="(min-width: 768px)" srcset="images/DepressedBear-1600_large_2x.jpg 2x, images/DepressedBear-800_large_1x.jpg" />
+                    <source media="(min-width: 640px)" srcset="images/DepressedBear_medium.jpg" />
+                    <img src="images/DepressedBear_small.jpg" alt="A DepressedBear in hometown">
+                </picture>
+                <figcaption data-i18n="story.7.figcaption"></figcaption>
+            </figure>
+            <p data-i18n="story.7.Begin"></p>
+            <p data-i18n="story.7.Second"></p>
+            <p data-i18n="story.7.Then"></p>
+            <p data-i18n="story.7.Fin"></p>            
+        </section>
+    </article>
+    <footer>
+        <img class="deco" src="images/flourish.png" alt="This is a decoration for the bottom of this website ">
+        <!--Flourish credit: http://pixabay.com/en/flourish-line-border-decoration-31609/-->
+        <div class="row">
+            <div class="socialIcon">
+                <a class="zocial twitter icon" alt="follow me on twitter" href="https://www.twitter.com" data-i18n="[title]href.1.social.0">Follow me on Twitter</a>
+                <a class="zocial digg icon" alt="follow me on digg" href="https://www.digg.com" data-i18n="[title]href.1.social.1">Follow me on Digg</a>
+                <a class="zocial facebook icon" alt="follow me on facebook" href="https://www.facebook.com" data-i18n="[title]href.1.social.2">Follow me on facebook</a>
+                <a class="zocial googleplus icon" alt="follow me on google+" href="https://plus.google.com/" data-i18n="[title]href.1.social.3">Follow me on google+</a>
+            </div>
+            <div class="viewsource">
+                <a class="zocial github button" href="http://github.com/udacity/responsive-images/tree/master/project/" data-i18n="[title]href.2.title"><span data-i18n="href.2.text">Source on GitHub</span></a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/jquery.lettering.js"></script>
+<script type="text/javascript" src="js/main.js" async></script>
+
+</html>
