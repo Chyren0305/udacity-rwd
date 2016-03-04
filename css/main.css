@@ -134,6 +134,19 @@ picture#banner img {
 .btn-main:active {
     opacity: 1;
 }
+.gotop {
+    display: none;
+    position: fixed;
+    right: .6em;
+    bottom: 2em;
+    padding: .5em .8em;
+    font-size: 1.6em;
+    border-radius: .3em;
+    background: rgba(45, 45, 45, .4);
+    color: white;
+    cursor: pointer;
+    z-index: 9999;
+}
 
 .deco {
     width: 100%;
@@ -181,7 +194,7 @@ picture#banner img {
         width: 100vw;
     }
     /*effect*/
-    svg#logo,.os-phrases {
+    .os-phrases {
         display: none;
     }
 }
