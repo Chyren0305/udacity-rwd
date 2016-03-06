@@ -205,6 +205,7 @@ picture#banner img {
     }
     h1 {
         font-size: 1.8em;
+        font-weight: normal;
     }
     .row {
         display: flex;
@@ -217,10 +218,7 @@ picture#banner img {
     }
 }
 
-@media only screen and (max-width: 360px) {
-    h1 {
-        font-size: 1.8em;
-    }    
+@media only screen and (max-width: 360px) {  
     .gotop {
         right: .5em;
         bottom: .5em;
