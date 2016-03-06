@@ -218,6 +218,9 @@ picture#banner img {
 }
 
 @media only screen and (max-width: 360px) {
+    h1 {
+        font-size: 1.8em;
+    }    
     .gotop {
         right: .5em;
         bottom: .5em;
