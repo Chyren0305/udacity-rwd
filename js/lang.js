@@ -169,11 +169,12 @@ $(document).ready(function() {
     i18n.init({
         "lng": 'en',
         "resStore": resources,
-        "fallbackLng": 'tw'
+        "fallbackLng": 'en'
     }, function(t) {
         $(document).i18n();
         /*openingEffect*/
-        $("#os-phrases > h2").lettering('words').children("span").lettering().children("span").lettering();
+        // $("#os-phrases > h2").lettering('words').children("span").lettering().children("span").lettering();
+        //  too much dom so I give up this movie effect   
     });
 
     $('.lang').click(function() {
@@ -183,6 +184,6 @@ $(document).ready(function() {
         }, function(t) {
             $(document).i18n();
         });
-        $("#os-phrases > h2").lettering('words').children("span").lettering().children("span").lettering();
+        // $("#os-phrases > h2").lettering('words').children("span").lettering().children("span").lettering();
     });
 });
